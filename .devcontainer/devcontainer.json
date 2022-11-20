@@ -15,7 +15,7 @@
 		// "onecentlin.laravel-blade"
 	],
 	"remoteUser": "sail",
-	"postCreateCommand": "chown -R 1000:1000 /var/www/html"
+	"postCreateCommand": "chown -R 1000:1000 /var/www/html && sudo curl -fsSL https://railway.app/install.sh | sh"
 	// "forwardPorts": [],
 	// "runServices": [],
 	// "shutdownAction": "none",
